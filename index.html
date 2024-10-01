@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <title>Ficha Cadastral</title>
+
+        <style>
+            .tamanho-100{
+                width: 100%;
+            }
+
+            .tamanho-50{
+                width: 50%;
+            }
+
+            body{
+                background-color: rgb(248, 255, 181);
+            }
+
+            .h1{
+                background-color: rgb(255, 166, 243);
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                border: 1px solid black;
+            }
+
+            tr:nth-child(odd){         
+                background-color: aliceblue;
+            }
+        </style>
+    </head>
+
+    
+    <body id="body">
+        <h1 class="h1">Ficha Cadastral - Vestibulinho ETEC</h1>
+
+        <fieldset>
+
+            <legend>1 - Identificação</legend>
+
+            <label>Código:</label>
+            <br>
+            <input/>
+            <br><br>
+
+            <label>Nome:</label>
+            <br>
+            <input class="tamanho-100"/>
+            <br><br>
+
+            <label>Apelido:</label> 
+            <br>
+            <input class="tamanho-100"/>
+            <br><br>
+
+            <label>Email:</label>
+            <br>
+            <input type = "email" class="tamanho-50"/>
+            <br><br>
+
+            <label>Data de Nascimento:</label>
+            <br>
+            <input type = "date"/>
+            <br><br>
+
+            <label>CPF:</label>
+            <br>
+            <input/>
+            <br><br>
+
+            <label>RG:</label>
+            <br>
+            <input/>
+            <br><br>
+
+            <label>UF:</label>
+            <br>
+            <select>
+                <option>SP</option> 
+                <option>MG</option>
+                <option>RS</option>
+                <option selected>SP</option>
+             </select>
+             <br><br>
+
+             <label>Município:</label>
+             <br>
+             <input type="text" class="tamanho-50"/>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>2 - Dados do Curso</legend>
+
+            <label>Selecione o curso desejado:</label>
+            <br>
+            <input type="radio"/> Desenvolvimento de Sistemas
+            <input type="radio"/> Elétrica
+            <input type="radio"/> Enfermagem
+            <input type="radio" checked/> Mecânica
+            <input type="radio"/> Mecatrônica
+            <br><br>
+
+            <label>Selecione o período desejado:</label>
+            <br>
+            <input type="radio"/> Manhã
+            <input type="radio"/> Tarde
+            <input type="radio" checked/> Noite
+            <br><br>
+
+            <label>Selecione as disciplinas de sua preferência:</label>
+            <br>
+            <input type="checkbox"/> Artes
+            <input type="checkbox"/> Educação Física
+            <input type="checkbox"/> Filosofia
+            <input type="checkbox"/> Sociologia
+            <input type="checkbox"/> Inglês
+            <input type="checkbox"/> Física
+            <input type="checkbox"/> Química
+            <input type="checkbox"/> Biologia
+            <input type="checkbox"/> Geografia
+            <input type="checkbox"/> História
+            <input type="checkbox"/> Matemática
+            <input type="checkbox"/> Português
+
+        </fieldset>
+        
+        <fieldset>
+
+            <legend>3 - Orientações:</legend>
+
+            <label>Realização da Prova</label>
+            <ol>
+                <li>
+                    Data: 06/09/2024
+                </li>
+                <li>
+                    Horário: 19h00
+                </li>
+                <li>
+                    Local: Etec
+                </li>
+            </ol>
+            <br><br><br>
+
+            <label>Favor trazer os seguintes itens para a realização da prova:</label>
+            <ul>
+                <li>
+                    Lápis
+                </li>
+                <li>
+                    Borracha
+                </li>
+                <li>
+                    Caneta Azul ou Preta
+                </li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Referência Familiar</legend>
+
+            <table>
+
+                <tr>
+                    <th>
+                        Parentesco
+                    </th>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Telefone
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        Pai
+                    </td>
+                    <td>
+                        João
+                    </td>
+                    <td>
+                        (16) 0.0000-0000
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Mãe
+                    </td>
+                    <td>
+                        Maria
+                    </td>
+                    <td>
+                        (16) 0.0000-0000
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Avó
+                    </td>
+                    <td>
+                        Isabel
+                    </td>
+                    <td>
+                        (16) 0.0000-0000
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+
+
+
+    </body>
+</html>
